@@ -1,1 +1,101 @@
-s
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+	list-style:none;	
+}
+body{
+	font:300 16px Courgette;
+}
+font{
+	font:300 16px Arial;
+}
+h1{
+	color: red;
+}
+h3{
+	color: red;
+}
+
+/* Tag: F* - Definições De Fonte*/
+f1{
+	font:300 16px Courgette;
+}
+f2{
+	font:300 16px Arial;
+}
+/* Tag: F* - Definições De Fonte*/
+
+#login{
+	width:1000px;
+	height:0 auto;
+	margin:0 auto;
+	position:relative;
+	top:200px;
+	border:1px solid #f00;
+	padding:30px;
+}
+.logo{
+	width:150px;
+	height:60px;
+	margin:0 auto;
+	padding:0 auto;
+}
+#login label{
+	display:block;
+	padding-top:5px;
+	
+}
+.acomodar{
+	margin:0 auto;
+	width:900px;
+	height:0 auto;
+}
+.txt{
+	border:none;
+	height:40px;
+	width:250px;
+	border:thin solid #F1F1F1;
+}
+.txt:focus{
+	border:thin solid #f00;
+	box-shadow:0 2px 10px #f00;
+		-webkit-box-shadow:0 2px 10px #f00;
+		-moz-box-shadow:0 2px 10px #f00;
+}
+.sb{
+	display:block;
+	border:none;
+	width:250px;
+	height:40px;
+	margin-top:10px;
+	cursor:pointer;
+	font:400 18px Courgette;
+	color:#999;
+}
+.sb:hover{
+	background:#f00;
+	color:#fff;
+	box-shadow:0 2px 10px #f00;
+		-webkit-box-shadow:0 2px 10px #f00;
+		-moz-box-shadow:0 2px 10px #f00;
+}
+/*Classes de heranças*/
+.bradius{
+	border-radius:6px;
+		-webkit-border-radius:6px;
+		-moz-border-radius:6px
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+/*multiplos Estilos*/
+.txt,.txt:focus,.sb,.sb:hover{
+	transition:all 0.5s linear;
+		-webkit-transition:all 0.5s linear;
+		-moz-transition:all 0.5s linear;
+}
+/*Fim de classes*/
